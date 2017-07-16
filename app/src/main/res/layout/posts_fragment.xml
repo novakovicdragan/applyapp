@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerPosts"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="@color/list_background"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <!--<LinearLayout
+        android:id="@+id/noPosts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/noPostsIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_assignment_turned_in_24dp" />
+
+        <TextView
+            android:id="@+id/noPostsInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/no_tasks_all"
+            android:layout_marginBottom="@dimen/list_item_padding" />
+
+    </LinearLayout>
+    -->
+
+</RelativeLayout>

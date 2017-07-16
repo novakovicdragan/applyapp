@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dragan App</string>
+    <string name="no_data">No data found. Tap to try again.</string>
+
+    <string name="header_user">User</string>
+    <string name="header_comments">Comments</string>
+    <string name="header_photos">Photos</string>
+
+</resources>

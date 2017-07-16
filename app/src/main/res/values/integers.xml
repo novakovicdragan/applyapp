@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Grid spans to differ if single fragment is on display -->
+    <integer name="grid_photos_spans_single">3</integer>
+    <integer name="grid_photos_spans_mix">2</integer>
+</resources>
